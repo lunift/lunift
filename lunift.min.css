@@ -1,0 +1,111 @@
+@charset "UTF-8";/*!
+ * LuniftCSS v0.0.1 (https://github.com/lunift/)
+ * Copyright 2021 Lunift
+ * Licensed under MIT (https://github.com/lunift/lunift/blob/main/LICENSE)
+ */
+ :root {
+     --l-blue: #0000ff;
+     --l-indigo: #4b0082;
+     --l-purple: #800080;
+     --l-pink: #ffc0cb;
+     --l-red: #ff0000;
+     --l-orange: #ffa500;
+     --l-yellow: #ffff00;
+     --l-green: #008000;
+     --l-teal: #008080;
+     --l-cyan: #00ffff;
+     --l-white: #ffffff;
+     --l-grey: #808080;
+     --l-grey-dark: #707070;
+     --l-gray-100:#f8f9fa;
+     --l-gray-200:#e9ecef;
+     --l-gray-300:#dee2e6;
+     --l-gray-400:#ced4da;
+     --l-gray-500:#adb5bd;
+     --l-gray-600:#6c757d;
+     --l-gray-700:#495057;
+     --l-gray-800:#343a40;
+     --l-gray-900:#212529;
+     --l-primary: #2b8eff;
+     --l-secondary: #6c757d;
+     --l-success: #48da48;
+     --l-info: #0ca4eb;
+     --l-warning: #fcba03;
+     --l-danger: #e62a12;
+     --l-light: #f8f9fa;
+     --l-dark: #212529;
+     /* RGB */
+     --l-blue-rgb-rgb: rgb(0, 0, 255);
+     --l-indigo-rgb: rgb(75, 0, 130);
+     --l-purple-rgb: rgb(128, 0, 128);
+     --l-pink-rgb: rgb(255, 192, 203);
+     --l-red-rgb: rgb(255, 0, 0);
+     --l-orange-rgb: rgb(255, 165, 0);
+     --l-yellow-rgb: rgb(255, 255, 0);
+     --l-green-rgb: rgb(0, 128, 0);
+     --l-teal-rgb: rgb(0, 128, 128);
+     --l-cyan-rgb: rgb(0, 255, 255);
+     --l-white-rgb: rgb(255, 255, 255);
+     --l-grey-rgb: rgb(128, 128, 128);
+     --l-grey-dark-rgb: rgb(112, 112, 112);
+     --l-gray-100-rgb:rgb(248, 249, 250);
+     --l-gray-200-rgb:rgb(233, 236, 239);
+     --l-gray-300-rgb:rgb(222, 226, 230);
+     --l-gray-400-rgb:rgb(206, 212, 218);
+     --l-gray-500-rgb:rgb(173, 181, 189);
+     --l-gray-600-rgb:rgb(108, 117, 125);
+     --l-gray-700-rgb:rgb(73, 80, 87);
+     --l-gray-800-rgb:rgb(52, 58, 64);
+     --l-gray-900-rgb:rgb(33, 37, 41);
+     --l-primary-rgb: rgb(43, 142, 255);
+     --l-secondary-rgb: rgb(108, 117, 125);
+     --l-success-rgb: rgb(72, 218, 72);
+     --l-info-rgb: rgb(12, 164, 235);
+     --l-warning-rgb: rgb(252, 186, 3);
+     --l-danger-rgb: rgb(230, 42, 18);
+     --l-light-rgb: rgb(248, 249, 250);
+     --l-dark-rgb: rgb(33, 37, 41);
+     --l-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+     --l-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+     --l-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+     --l-body-font-family: var(--l-body-text-align);
+     --background-color: var(--l-body-bg);
+     -webkit-text-size-adjust: 100%;
+     -webkit-tap-highlight-color:transparent}hr{margin:1rem 0;color:inherit;
+     background-color: currentColor;
+     border: 0;
+     opacity: .25;}
+     hr:not([size]){height: 1px}
+
+h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.h1, h1 {
+    font-size:calc(1.375rem + 1.5vw);
+}
+
+@media (min-width:1200px) {
+    .h1, h1 {
+        font-size: 2.5rem
+    }
+}
+
+.h2, h2 {
+    font-size: calc(1.325rem + .9vw)
+}
+
+@media (min-width: 1200px) {
+    .h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6 {
+        margin-top: 0;
+        margin-bottom: .5rem;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+    .h1, h1 {
+        font-size: calc(1.375rem)
+    }
+}
